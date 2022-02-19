@@ -64,9 +64,9 @@ width:120px;
       transform: translateY(2px);
      }
 `;
-const Logo =styled.h1`
+const Logo =styled.p`
 font-size:35px;
-font-weight:600;
+// font-weight:600;
 Padding:0;
 margin:0 0 0 15px;
 `;
@@ -82,7 +82,7 @@ const Navbar = () => {
            <Logo>Project</Logo>
        </NavLeft> 
        <NavRight>
-           <Link to = '/Login' style={linkStyle}><Button>Sign in</Button> </Link>
+           {/* <Link to = '/Login' style={linkStyle}><Button>Sign in</Button> </Link> */}
            
      </NavRight>
     </NavMain>
